@@ -1,0 +1,113 @@
+/* Reset and Basic Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation Styling */
+header {
+    background-color: #333;
+    padding: 1rem;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    color: #f4f4f4;
+}
+
+/* Home Section */
+.home-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.main-image {
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* About Section */
+.about-section {
+    padding: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Media Section */
+.media-section {
+    padding: 30px;
+    text-align: center;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+}
